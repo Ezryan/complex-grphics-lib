@@ -156,11 +156,3 @@ struct figure{
     }
      */
 };
-
-int main() {
-    quat q(4,8,8,1);
-    quat t = --q;
-    q = q * t;
-    q.DispQuat();
-    return 0;
-}
